@@ -1,37 +1,28 @@
 body .row > * {
-	padding: 0;
-	height: 100vh;
+  padding: 0;
+  height: 100vh;
 }
 
 #leafletMap {
-	height: 100vh;
+  height: 100vh;
 }
 
-.menu {
-	height: 50px;
-	width: 50px;
-
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-	cursor: pointer;
-
-	border: 1px solid rgba(0, 0, 0, 0.35);
-	border-radius: 50%;
-	box-shadow: 2px 2px 4px #c3c3c3;
+.table-fixed-head {
+  overflow-y: auto;
+  height: 100px;
+  /* Just common table stuff. Really. */
+}
+.table-fixed-head table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-fixed-head table > thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+.table-fixed-head table th, .table-fixed-head table td {
+  padding: 8px 16px;
 }
 
-.hamburger-line {
-	width: 60%;
-	display: block;
-	padding: 2px;
-	margin: 5px;
-
-	top: 8px;
-	position: relative;
-	left: 4px;
-
-	background: rgba(0, 0, 0, 0.75);
-	border-radius: 25%;
-}
-
+/*# sourceMappingURL=map.css.map */

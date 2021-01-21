@@ -23,6 +23,7 @@ class DataService
 		$result = [];
 
 		for($i = 0; $i < $limit; $i++) {
+			//limited the coordinates to be generated around London
 			$lat = FloatService::randomFloat(self::MIN_LAT, self::MAX_LAT);
 			$lng = FloatService::randomFloat(self::MIN_LNG, self::MAX_LNG);
 			$result[] =

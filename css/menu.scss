@@ -1,0 +1,42 @@
+.menu {
+	z-index: 10000;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+
+	#actionMenu {
+		height: 50px;
+		width: 50px;
+		display: block;
+		float: right;
+
+		cursor: pointer;
+		background: white;
+		border: 1px solid rgba(0, 0, 0, 0.35);
+		border-radius: 50%;
+	}
+
+	.dropdown-menu {
+		position: relative;
+		bottom: 3px;
+	}
+
+	#actionMenu, .dropdown-menu {
+		box-shadow: 2px 2px 4px #c3c3c3;
+	}
+}
+
+.hamburger-line {
+	width: 60%;
+	display: block;
+	padding: 2px;
+	margin: 5px;
+
+	top: 8px;
+	position: relative;
+	left: 4px;
+
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 25%;
+}
+
