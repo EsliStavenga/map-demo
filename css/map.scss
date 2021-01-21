@@ -13,7 +13,6 @@ body .row > * {
 	overflow-y: auto;
 	height: 100px;
 
-	/* Just common table stuff. Really. */
 	table {
 		border-collapse: collapse;
 		width: 100%;
@@ -26,6 +25,14 @@ body .row > * {
 
 		th, td {
 			padding: 8px 16px;
+		}
+
+		tr {
+			cursor: pointer;
+
+			&:hover {
+				background: #c3c3c3;
+			}
 		}
 	}
 

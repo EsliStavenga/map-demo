@@ -42,6 +42,9 @@ function loadAdditionalData() {
 function addPointsToTable(data) {
 	data.forEach(point => {
 		const row = metadataTableBody.insertRow();
+		row.onclick = () => {
+			map.flyTo([point.lat, point.lng], 16);
+		}
 
 		for(const key of Object.keys(point)) {
 			row.insertCell().appendChild(document.createTextNode(point[key]));

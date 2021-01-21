@@ -10,7 +10,6 @@ body .row > * {
 .table-fixed-head {
   overflow-y: auto;
   height: 100px;
-  /* Just common table stuff. Really. */
 }
 .table-fixed-head table {
   border-collapse: collapse;
@@ -23,6 +22,12 @@ body .row > * {
 }
 .table-fixed-head table th, .table-fixed-head table td {
   padding: 8px 16px;
+}
+.table-fixed-head table tr {
+  cursor: pointer;
+}
+.table-fixed-head table tr:hover {
+  background: #c3c3c3;
 }
 
 /*# sourceMappingURL=map.css.map */
