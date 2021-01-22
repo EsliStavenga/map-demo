@@ -1,22 +1,26 @@
 {
-  "name": "manta-ray-map-demo",
-  "version": "1.0.0",
-  "description": "The Manta Ray PHP+JS Map Demo",
-  "main": "index.php",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EsliStavenga/map-demo.git"
-  },
-  "keywords": [
-    "MantaRay"
-  ],
-  "author": "Esli Stavenga",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EsliStavenga/map-demo/issues"
-  },
-  "homepage": "https://github.com/EsliStavenga/map-demo#readme"
+	"name": "manta-ray-map-demo",
+	"version": "1.0.0",
+	"description": "The Manta Ray PHP+JS Map Demo",
+	"main": "index.php",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EsliStavenga/map-demo.git"
+	},
+	"keywords": [
+		"MantaRay"
+	],
+	"author": "Esli Stavenga",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/EsliStavenga/map-demo/issues"
+	},
+	"homepage": "https://github.com/EsliStavenga/map-demo#readme",
+	"dependencies": {
+		"bootstrap": "^5.0.0-beta1",
+		"leaflet": "1.7.1"
+	}
 }
